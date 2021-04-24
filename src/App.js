@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import itachi_image from "./images/itachi.jpeg";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hey fellow human,</h1>
+      <h2>you fall straight into the Genjustsu of Itachi Uchiha!!!</h2>
+      <div className="img-box">
+      <div className="img-items">
+      <img src={itachi_image} alt="somerandomitachiimage"></img>
+      </div>
+      </div>
+      
     </div>
   );
 }
